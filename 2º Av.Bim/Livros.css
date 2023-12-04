@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Open Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: firebrick;
+    width: max(1500);
+    height: max(1000);
+    display: flex;
+}
+
+#main-banner .iu {
+    top: 0%;
+    width: 1500px;
+    height: 1000px;
+    position: relative;
+}
+
+#main-banner-content {
+    font-size: 'Courier New', Courier, monospace;
+}
+
+.Card-Bor {
+    flex: 1;
+    background-color: firebrick;
+    border: 4px #000;
+}
+
+.Card-Bor-hea {
+    background-color: dimgray;
+    display: inline-block;
+    color: azure;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.Card-Bor li {
+    font-size: 16px;
+    padding: 6px 4px;
+    text-transform: uppercase;
+    text-align: left; 
+}
+
+.im {
+    height: 70%;
+    width: 50%;
+    text-align: left;
+    max-width: 30%;
+   
+}
+
+.Container {
+   display: flex;
+}
+
+.Bt {
+    border-radius: 80px;
+    margin-bottom: 0%;
+}
+
+.Btn{
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto;
+    border: 2px solid #000;
+    color: #000;
+    padding: 17px 80px;
+    border-radius: 80px;
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: .3s linear;
+    cursor: pointer; 
+}
+
+.Bt:hover {
+    background-color: pink;
+    color: #000;
+
+}
+
+.Bor {
+    max-width: 77%;
+    max-height: 40%;
+    position: absolute;
+    margin: 0px 0px 0px -9px;
+    top: 0%;
+}
+
+.Cor {
+    width: max(900px);
+    height: max(500px);
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    top: 0%;
+}
+
+.Card-Cor {
+    flex: 1;
+    background-color: firebrick;
+    border: 4px #000;
+}
+
+.Card-Cor-hea {
+    background-color: dimgray;
+    display: inline-block;
+    color: azure;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.Card-Cor li {
+    font-size: 16px;
+    padding: 6px 4px;
+    text-transform: uppercase;
+    text-align: left; 
+}
